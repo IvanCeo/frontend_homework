@@ -13,7 +13,9 @@ const MovieCard = (
             <CardBody>
                 <Image 
                 src={image}
-                borderRadius='lg' />
+                borderRadius='lg'
+                alt={title} 
+                fallbackSrc="/images/placeholder.webp" />
 
                 <Stack mt='6' />
                 <Heading size='md'>{title}</Heading>
